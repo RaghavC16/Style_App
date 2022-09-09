@@ -6,24 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="@dimen/editTextWidth"
-        android:layout_height="@dimen/editTextHeight"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="600dp"
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="@dimen/textViewWidth"
+        android:layout_height="@dimen/textViewHeight"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="584dp"
+        android:hint="Enter your name"
         android:paddingLeft="@dimen/leftPadding"
-        android:text="Enter your name below"
+        android:textSize="@dimen/fontsize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
-        android:layout_width="@dimen/textViewWidth"
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="306dp"
         android:layout_height="@dimen/textViewHeight"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="528dp"
-        android:text="Enter the day of the week below"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="500dp"
+        android:hint="Enter the day of the week"
         android:paddingLeft="@dimen/leftPadding"
+        android:textSize="@dimen/fontsize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:text="Surprise"
+        android:textSize="@dimen/fontButton"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="412dp"
+        android:onClick="hitButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
