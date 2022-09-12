@@ -7,6 +7,7 @@
     <dimen name="bottomMargin">20dp</dimen>
     <dimen name="screenMargin">15dp</dimen>
     <dimen name="leftPadding">45dp</dimen>
+    <dimen name="rightPadding">45dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
     <dimen name="buttonWidth">100dp</dimen>
     <dimen name="buttonHeight">50dp</dimen>
