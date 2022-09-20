@@ -5,11 +5,14 @@
     <dimen name="editTextWidth">215dp</dimen>
     <dimen name="editTextHeight">50dp</dimen>
     <dimen name="margin">80dp</dimen>
-    <dimen name="marginRight">20dp</dimen>
+    <dimen name="marginRight">32dp</dimen>
     <dimen name="padding">10dp</dimen>
     <dimen name="paddingText">5dp</dimen>
-    <dimen name="buttonWidth">100dp</dimen>
+    <dimen name="buttonWidth">200dp</dimen>
     <dimen name="buttonHeight">50dp</dimen>
     <dimen name="fontsize">20sp</dimen>
     <dimen name="fontButton">10sp</dimen>
+    <dimen name="marginTop">348dp</dimen>
+    <dimen name="marginBottom">420dp</dimen>
+
 </resources>
